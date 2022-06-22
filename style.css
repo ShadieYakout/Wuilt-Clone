@@ -1,0 +1,169 @@
+body {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+  max-width: 100%;
+  height: 42px;
+  float: left;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.right-nav {
+  float: right;
+}
+
+li {
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+li:hover {
+  color: #0f766e;
+}
+.btn-def {
+  background-color: #0f766e;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #0f766e;
+  border-radius: 1000000px;
+  color: #fff;
+  font-weight: 600;
+  padding: 14px 24px;
+  font-size: 16px;
+  line-height: 1em;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.btn {
+  text-align: center;
+  color: #fff;
+  border: 1px solid #0f766e;
+  border-radius: 1000000px;
+  color: #0f766e;
+  font-weight: 600;
+  padding: 14px 24px;
+  font-size: 16px;
+  line-height: 1em;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #0f766e;
+  transform: scale(0.98);
+  transform: translateY(3px);
+  transition: 0.2s ease-in;
+}
+.btn-def:hover {
+  transform: scale(0.98);
+  transform: translateY(3px);
+  transition: 0.2s ease-in;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(123deg, #1e293b 24%, #0d9488 65%);
+  font-size: 3.5rem;
+  margin: 0 0 20px;
+}
+
+.img1 {
+  height: 100%;
+}
+
+.img2 {
+  position: absolute;
+  top: 650px;
+  left: 350px;
+  height: 500px;
+  width: 300px;
+}
+.img3 {
+  position: absolute;
+  top: 650px;
+  right: 350px;
+  height: 500px;
+  width: 300px;
+}
+
+.img4 {
+  width: 40%;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  float: left;
+  width: max-content;
+  padding-left: 300px;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  float: right;
+  width: max-content;
+  padding-right: 100px;
+}
+
+.footer {
+  background-image: linear-gradient(
+      167deg,
+      rgba(0, 0, 0, 0.23),
+      rgba(0, 0, 0, 0.86) 40%,
+      #0f172a 64%
+    ),
+    url('https://assets-global.website-files.com/614319338322d2f96eb4dd96/61e82b11952b23786f928614_60d154b330457672a8b52908_Gradient%20Map%201.svg');
+  background-size: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.footer-img {
+  width: 900px;
+  height: 700px;
+}
+
+p {
+  max-width: 600px;
+  color: hsla(0, 0%, 94.1%, 0.6);
+  font-size: 20px;
+  line-height: 1.7rem;
+  letter-spacing: -0.02em;
+}
